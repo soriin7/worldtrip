@@ -38,7 +38,7 @@ export default function Home() {
           mb="20"
         >
           <Swiper
-            style={{ '--swiper-navigation-color': '#FFBA08', '--swiper-pagination-color': '#FFBA08' }}
+            // style={{ '--swiper-navigation-color': '#FFBA08', '--swiper-pagination-color': '#FFBA08' }}
             cssMode={true} navigation={true} pagination={true} mousewheel={true} keyboard={true} autoHeight={true}
           >
             <SwiperSlide>
@@ -98,7 +98,7 @@ export default function Home() {
             </SwiperSlide>
           </Swiper>
         </Box>
-      </Flex>
+      </Flex >
     )
   } if (isMediumVersion) {
     return (
@@ -118,7 +118,7 @@ export default function Home() {
           mb="20"
         >
           <Swiper
-            style={{ '--swiper-navigation-color': '#FFBA08', '--swiper-pagination-color': '#FFBA08' }}
+            // style={{ '--swiper-navigation-color': '#FFBA08', '--swiper-pagination-color': '#FFBA08' }}
             cssMode={true} navigation={true} pagination={true} mousewheel={true} keyboard={true} autoHeight={true}
           >
             <SwiperSlide>
@@ -198,7 +198,7 @@ export default function Home() {
           mb="20"
         >
           <Swiper
-            style={{ '--swiper-navigation-color': '#FFBA08', '--swiper-pagination-color': '#FFBA08' }}
+            // style={{ '--swiper-navigation-color': '#FFBA08', '--swiper-pagination-color': '#FFBA08' }}
             cssMode={true} navigation={true} pagination={true} mousewheel={true} keyboard={true} autoHeight={true}
           >
             <SwiperSlide>
