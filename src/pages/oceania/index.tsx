@@ -26,7 +26,7 @@ export default function Home() {
             <Text w="35%" fontWeight="normal" fontSize="2xl" letterSpacing="tight" lineHeight="50px" align="justify" mt="100">
               A Ocêania é uma região geográfica composta por vários grupos de ilhas
               do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo
-              Ocêania foi criado em 1831 pelo explorador francês Dumont d'Urville.
+              Ocêania foi criado em 1831 pelo explorador francês Dumont d&aposUrville.
               O termo é usado hoje em vários idiomas para designar uma região g
               eográfica e política que compreende o continente da Austrália e ilhas
               do Oceano Pacífico adjacentes.
@@ -93,7 +93,7 @@ export default function Home() {
               <Text w="100%" fontWeight="normal" fontSize="2xl" letterSpacing="tight" lineHeight="50px" align="justify" mt="100">
                 A Ocêania é uma região geográfica composta por vários grupos de ilhas
                 do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo
-                Ocêania foi criado em 1831 pelo explorador francês Dumont d'Urville.
+                Ocêania foi criado em 1831 pelo explorador francês Dumont d&aposUrville.
                 O termo é usado hoje em vários idiomas para designar uma região g
                 eográfica e política que compreende o continente da Austrália e ilhas
                 do Oceano Pacífico adjacentes.
@@ -161,7 +161,7 @@ export default function Home() {
             <Text w="100%" fontWeight="normal" fontSize="2xl" letterSpacing="tight" lineHeight="50px" align="justify" mt="100">
               A Ocêania é uma região geográfica composta por vários grupos de ilhas
               do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo
-              Ocêania foi criado em 1831 pelo explorador francês Dumont d'Urville.
+              Ocêania foi criado em 1831 pelo explorador francês Dumont d&aposUrville.
               O termo é usado hoje em vários idiomas para designar uma região g
               eográfica e política que compreende o continente da Austrália e ilhas
               do Oceano Pacífico adjacentes.
