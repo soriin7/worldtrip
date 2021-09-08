@@ -22,7 +22,6 @@ export function Header() {
           <ChevronLeftIcon fontSize="3xl" _hover={{ "cursor": "pointer" }} />
         </Link>
         <Image m="auto" src="/images/Logoworld.svg" alt="Logo World Trip" />
-
       </Flex>
     );
   } {
@@ -38,7 +37,6 @@ export function Header() {
         px="1"
       >
         <Image m="auto" src="/images/Logoworld.svg" alt="Logo World Trip" />
-
       </Flex>
     );
   }

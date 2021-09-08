@@ -43,7 +43,7 @@ export default function Home() {
           >
             <SwiperSlide>
               <Link href="/europa">
-                <Image width="100%" loading='lazy' h='450px' objectFit="cover" filter="brightness(75%)" position="absolute" src="/images/london.jpg" alt="Europa" />
+                <Image width="100%" loading='lazy' h='450px' objectFit="cover" filter="brightness(75%)" position="absolute" src="https://images.unsplash.com/photo-1490642914619-7955a3fd483c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1370&q=80" alt="Europa" />
                 <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
                   Europa
                 </Heading>
@@ -53,40 +53,48 @@ export default function Home() {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/sul.jpg" alt="América do Sul" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                América
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                O novo mundo.
-              </Heading>
+              <Link href="/america">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="América" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  América
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  O novo mundo.
+                </Heading>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/oceania.jpg" alt="Oceânia" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                Oceânia
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                O maior arquipélago.
-              </Heading>
+              <Link href="/oceania">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" alt="Oceânia" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  Oceânia
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  O maior arquipélago.
+                </Heading>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/asia.jpg" alt="Asia" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                Ásia
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                O maior continente.
-              </Heading>
+              <Link href="/asia">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1621415814107-4595c7b2b4fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1454&q=80" alt="Asia" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  Ásia
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  O maior continente.
+                </Heading>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/africa.jpg" alt="Africa" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                África
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                A maior diversidade cultural.
-              </Heading>
+              <Link href="/africa">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80" alt="Africa" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  África
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  A maior diversidade cultural.
+                </Heading>
+              </Link>
             </SwiperSlide>
           </Swiper>
         </Box>
@@ -115,7 +123,7 @@ export default function Home() {
           >
             <SwiperSlide>
               <Link href="/europa">
-                <Image width="100%" loading='lazy' h='450px' objectFit="cover" filter="brightness(75%)" position="absolute" src="/images/london.jpg" alt="Europa" />
+                <Image width="100%" loading='lazy' h='450px' objectFit="cover" filter="brightness(75%)" position="absolute" src="https://images.unsplash.com/photo-1490642914619-7955a3fd483c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1370&q=80" alt="Europa" />
                 <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
                   Europa
                 </Heading>
@@ -125,40 +133,48 @@ export default function Home() {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/sul.jpg" alt="América do Sul" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                América
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                O novo mundo.
-              </Heading>
+              <Link href="/america">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="América" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  América
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  O novo mundo.
+                </Heading>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/oceania.jpg" alt="Oceânia" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                Oceânia
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                O maior arquipélago.
-              </Heading>
+              <Link href="/oceania">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" alt="Oceânia" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  Oceânia
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  O maior arquipélago.
+                </Heading>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/asia.jpg" alt="Asia" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                Ásia
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                O maior continente.
-              </Heading>
+              <Link href="/asia">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1621415814107-4595c7b2b4fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1454&q=80" alt="Asia" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  Ásia
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  O maior continente.
+                </Heading>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/africa.jpg" alt="Africa" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                África
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                A maior diversidade cultural.
-              </Heading>
+              <Link href="/africa">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80" alt="Africa" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  África
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  A maior diversidade cultural.
+                </Heading>
+              </Link>
             </SwiperSlide>
           </Swiper>
         </Box>
@@ -187,7 +203,7 @@ export default function Home() {
           >
             <SwiperSlide>
               <Link href="/europa">
-                <Image width="100%" loading='lazy' h='450px' objectFit="cover" filter="brightness(75%)" position="absolute" src="/images/london.jpg" alt="Europa" />
+                <Image width="100%" loading='lazy' h='450px' objectFit="cover" filter="brightness(75%)" position="absolute" src="https://images.unsplash.com/photo-1490642914619-7955a3fd483c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1370&q=80" alt="Europa" />
                 <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
                   Europa
                 </Heading>
@@ -197,40 +213,48 @@ export default function Home() {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/sul.jpg" alt="América do Sul" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                América
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                O novo mundo.
-              </Heading>
+              <Link href="/america">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="América" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  América
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  O novo mundo.
+                </Heading>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/oceania.jpg" alt="Oceânia" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                Oceânia
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                O maior arquipélago.
-              </Heading>
+              <Link href="/oceania">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" alt="Oceânia" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  Oceânia
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  O maior arquipélago.
+                </Heading>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/asia.jpg" alt="Asia" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                Ásia
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                O maior continente.
-              </Heading>
+              <Link href="/asia">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1621415814107-4595c7b2b4fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1454&q=80" alt="Asia" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  Ásia
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  O maior continente.
+                </Heading>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="/images/africa.jpg" alt="Africa" />
-              <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
-                África
-              </Heading>
-              <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
-                A maior diversidade cultural.
-              </Heading>
+              <Link href="/africa">
+                <Image w="100%" h='450px' objectFit="cover" filter="brightness(75%)" position="relative" src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80" alt="Africa" />
+                <Heading position="absolute" size="3xl" top="190px" align="center" w="100%" color="white">
+                  África
+                </Heading>
+                <Heading position="absolute" size="lg" top="260px" align="center" w="100%" color="gray.50">
+                  A maior diversidade cultural.
+                </Heading>
+              </Link>
             </SwiperSlide>
           </Swiper>
         </Box>
